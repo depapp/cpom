@@ -5,12 +5,12 @@ describe('My Store - Automation Practice', () => {
 	context('Authentications', () => {
 		beforeEach(() => {
 			cy.visit('/')
-            // mainPage.verifyMainPage()
+            mainPage.verifyMainPage()
             cy.get('.login').click()
 		})
 
 		it('Register with Valid Credentials', () => {
-            // registerPage.verifyRegisterPage()
+            registerPage.verifyRegisterPage()
             registerPage.registerWithValidCredentials()
             registerPage.verifyRegisterWithValidCredentials()
 		})
