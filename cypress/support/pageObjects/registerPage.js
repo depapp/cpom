@@ -32,9 +32,6 @@ export const registerPage = {
 		}).then((resp) => {
 			expect(resp.status).to.eq(200)
 			})
-		cy.get('.page-heading')
-			.eq(0)
-			.contains('Create an account')
 		cy.get(gender)
 			.click()
 		if (gender == '#id_gender1') {
