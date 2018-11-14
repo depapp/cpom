@@ -1,5 +1,5 @@
 import { registerPage } from '../support/pageObjects/registerPage'
-import { mainPage } from '../support/pageObjects/mainPage'
+// import { mainPage } from '../support/pageObjects/mainPage'
 
 describe('My Store - Automation Practice', () => {
 	context('Authentications', () => {
