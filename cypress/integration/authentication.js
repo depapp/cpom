@@ -10,7 +10,7 @@ describe('My Store - Automation Practice', () => {
 		})
 
 		it('Register with Valid Credentials', () => {
-            	// registerPage.verifyRegisterPage()
+            	registerPage.verifyRegisterPage()
             	registerPage.registerWithValidCredentials()
             	registerPage.verifyRegisterWithValidCredentials()
 		})
