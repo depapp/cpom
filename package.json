@@ -1,0 +1,16 @@
+{
+  "name": "cpom",
+  "version": "1.0.0",
+  "description": "Cypress with Page Object Model",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depapp/cpom.git"
+  },
+  "author": "@depapp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/depapp/cpom/issues"
+  },
+  "homepage": "https://github.com/depapp/cpom#readme"
+}
